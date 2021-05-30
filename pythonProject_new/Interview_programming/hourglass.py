@@ -28,5 +28,14 @@ if __name__ == '__main__':
             result.append(sum1)
     print(result)
     print(max(result))
+'''
+sample input could be something like
 
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 2 4 4 0
+0 0 0 2 0 0
+0 0 1 2 4 0
 
+'''
