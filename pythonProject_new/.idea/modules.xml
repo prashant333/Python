@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../DS_and_algo_exercise/.idea/DS_and_algo_exercise.iml" filepath="$PROJECT_DIR$/../DS_and_algo_exercise/.idea/DS_and_algo_exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HackerRankProject/.idea/HackerRankProject.iml" filepath="$PROJECT_DIR$/../HackerRankProject/.idea/HackerRankProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pythonProject_algorithms/.idea/pythonProject_algorithms.iml" filepath="$PROJECT_DIR$/../pythonProject_algorithms/.idea/pythonProject_algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject_new.iml" filepath="$PROJECT_DIR$/.idea/pythonProject_new.iml" />
     </modules>

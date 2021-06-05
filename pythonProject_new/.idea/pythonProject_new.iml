@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pythonProject_algorithms" />
     <orderEntry type="module" module-name="DS_and_algo_exercise" />
+    <orderEntry type="module" module-name="HackerRankProject" />
   </component>
 </module>
