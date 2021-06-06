@@ -16,14 +16,15 @@ def rotatebyone(a):
 
 
 if __name__ == '__main__':
-    nd = input().split()
-
+    nd = input("Enter two values:").split()
+# size of array
     n = int(nd[0])
-
+# no of left rotation
     d = int(nd[1])
-
+# array
     a = list(map(int, input().rstrip().split()))
 
     result = rotLeft(a, d)
 
     print(*result)
+
