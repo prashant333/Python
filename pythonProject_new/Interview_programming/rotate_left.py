@@ -16,9 +16,9 @@ def rotatebyone(a):
     return a
 '''
 
-# alternate solution
+# alternate solution 1
 
-
+'''
 def rotLeft(a, d):
     # Write your code here
     for i in range(d):
@@ -27,6 +27,14 @@ def rotLeft(a, d):
             a[j] = a[j+1]
         a[len(a) - 1] = temp
     return a
+'''
+
+# alternate solution 2
+
+
+def rotLeft(a, d):
+    a = list(a)
+    return a[d:] + a[:d]
 
 
 if __name__ == '__main__':
