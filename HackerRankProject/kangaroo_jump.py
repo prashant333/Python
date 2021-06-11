@@ -27,7 +27,11 @@ def kangaroo(x1, v1, x2, v2):
      After solving the equation we get the value as (x1-x2)/(v2-v1) = y.
 
      If the value of y is an integer then the line will intersect each other."""
-    
+
+    # --------------------Code1-----------------------------
+
+
+    """
     if x2 > x1 and v2 > v1:
         return 'NO'
     x = x1-x2
@@ -37,6 +41,17 @@ def kangaroo(x1, v1, x2, v2):
         return "YES"
     else:
         return "NO"
+        
+    """
+    # --------------------Code2-----------------------------
+
+    # modified code for division by zero exception.
+    if x2 > x1 and v2 > v1:
+        return 'NO'
+    elif (v2-v1) != 0 and (x2-x1) % (v1-v2) == 0:
+        return'YES'
+    else:
+        return 'NO'
 
 
 if __name__ == '__main__':
