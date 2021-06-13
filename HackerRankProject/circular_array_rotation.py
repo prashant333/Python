@@ -16,12 +16,16 @@ import sys
 #  3. INTEGER_ARRAY queries
 #
 
+
 def circularArrayRotation(a, k, queries):
     # Write your code here
     if k > len(a):
+        # we are taking mod of K in order to avoid repetition of shift.
         k = k % len(a)
     k = len(a) - k
+    # Using slice operation to shift values of array.
     a = a[k:] + a[:k]
+    # using comprehension to return value for each queries on shifted array.
     return [a[i] for i in queries]
 
 
