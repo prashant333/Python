@@ -1,4 +1,4 @@
-
+# This set of code returns * printed in equilateral triangle pattern.
 def triangle(n):
     k = 2 * n - 2
     for i in range(0, n):
