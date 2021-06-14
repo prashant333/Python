@@ -1,4 +1,5 @@
-# This set of code returns * printed in equilateral triangle pattern.
+# This set of code returns * printed in triangle pattern.
+"""
 def triangle(n):
     k = 2 * n - 2
     for i in range(0, n):
@@ -13,6 +14,15 @@ def triangle(n):
             print("* ", end="")
 
         print("\r")
+"""
+# another way of printing triangle using list
+
+
+def triangle(n):
+    myList = []
+    for i in range(1, n+1):
+        myList.append("*"*i)
+    print("\n".join(myList))
 
 
 n = int(input("Enter value:"))
