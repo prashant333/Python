@@ -1,5 +1,6 @@
 # This set of code returns * printed in triangle pattern.
 """
+# method 1
 def triangle(n):
     k = 2 * n - 2
     for i in range(0, n):
@@ -18,12 +19,17 @@ def triangle(n):
 # another way of printing triangle using list
 
 """
+# method 2
 def triangle(n):
     myList = []
     for i in range(1, n+1):
         myList.append("*"*i)
     print("\n".join(myList))
 """
+
+# method 3
+
+
 def triangle(n):
     for i in range(1, n + 1):
         # ljust(), rjust() will shift the pattern to left and right respectively
