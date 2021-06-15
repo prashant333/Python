@@ -17,12 +17,17 @@ def triangle(n):
 """
 # another way of printing triangle using list
 
-
+"""
 def triangle(n):
     myList = []
     for i in range(1, n+1):
         myList.append("*"*i)
     print("\n".join(myList))
+"""
+def triangle(n):
+    for i in range(1, n + 1):
+        # ljust(), rjust() will shift the pattern to left and right respectively
+        print(str('#'*i).ljust(n))
 
 
 n = int(input("Enter value:"))
