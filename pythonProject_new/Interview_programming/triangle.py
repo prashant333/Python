@@ -33,7 +33,7 @@ def triangle(n):
 def triangle(n):
     for i in range(1, n + 1):
         # ljust(), rjust() will shift the pattern to left and right respectively
-        print(str('#'*i).ljust(n))
+        print(str('#'*i).ljust(n, 'a'))
 
 
 n = int(input("Enter value:"))
