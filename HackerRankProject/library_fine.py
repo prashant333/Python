@@ -23,14 +23,25 @@ import random
 
 def libraryFine(d1, m1, y1, d2, m2, y2):
 
-    date_actual = datetime.datetime(y1,m1,d1)
-    date_expected = datetime.datetime(y2,m2,d2)
+    # Putting date into python datetime format, datetime takes input in YYYY/MM/DD format.
+
+    date_actual = datetime.datetime(y1, m1, d1)
+    date_expected = datetime.datetime(y2, m2, d2)
+
+    # comparing date if the return date is longer than the expected date.
 
     if date_expected >= date_actual:
         return "No fine"
 
+    # If the return date is in the same month but exceeds the expected date
 
-first_multiple_input = input("Please give the actual return date").rstrip().split()
+    elif date_actual.day > date_expected.day and date_actual.month != date_expected.month+1:
+        number_of_days_late = date_actual - date_expected
+        fine = 15 * number_of_days_late.days
+        return fine
+
+
+first_multiple_input = input("Please give the actual return date : ").rstrip().split()
 
 d1 = int(first_multiple_input[0])
 
@@ -38,7 +49,7 @@ m1 = int(first_multiple_input[1])
 
 y1 = int(first_multiple_input[2])
 
-second_multiple_input = input("Please give the expected  return date").rstrip().split()
+second_multiple_input = input("Please give the expected  return date : ").rstrip().split()
 
 d2 = int(second_multiple_input[0])
 
@@ -48,4 +59,6 @@ y2 = int(second_multiple_input[2])
 
 result = libraryFine(d1, m1, y1, d2, m2, y2)
 
-print(result)
+print("$"+str(result))
+
+
