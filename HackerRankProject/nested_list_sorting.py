@@ -6,7 +6,7 @@ store them in a nested list and print the name(s) of any student(s) having the s
 
 def sort_marksheet(nested_list):
 
-    return sorted(nested_list, key= lambda x: x[1])
+    return sorted(nested_list, key=lambda x: x[1])
 
 
 marksheet = []
