@@ -31,7 +31,14 @@ def libraryFine(d1, m1, y1, d2, m2, y2):
     # comparing date if the return date is longer than the expected date.
 
     if date_expected >= date_actual:
-        return "No fine"
+        fine = 0
+        return fine
+
+    # Comparing the year of actual return date with expected return date
+
+    elif date_actual.year >= date_expected.year+1:
+        fine = 10000
+        return fine
 
     # If the return date is in the same month but exceeds the expected date
 
