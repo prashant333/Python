@@ -23,6 +23,7 @@ import random
 
 def libraryFine(d1, m1, y1, d2, m2, y2):
 
+    """
     # Putting date into python datetime format, datetime takes input in YYYY/MM/DD format.
 
     date_actual = datetime.datetime(y1, m1, d1)
@@ -46,6 +47,28 @@ def libraryFine(d1, m1, y1, d2, m2, y2):
         number_of_days_late = date_actual - date_expected
         fine = 15 * number_of_days_late.days
         return fine
+    """
+
+    # second approach
+    
+    if y1 > y2:
+
+        # if year of return is greater than year due
+
+        return 10000
+    elif m1 > m2 and y1 == y2:
+
+        # if returned in the same year and month of return is greater than month due
+
+        return (m1 - m2) * 500
+
+    elif d1 > d2 and y1 == y2 and m1 == m2:
+
+        # if returned in the same year and month, and the date of return is greater than due date
+
+        return (d1 - d2) * 15
+    else:
+        return 0
 
 
 first_multiple_input = input("Please give the actual return date : ").rstrip().split()
