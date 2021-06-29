@@ -24,6 +24,8 @@ if __name__ == '__main__':
         args = s[1:]
         if cmd != "print":
             cmd += "(" + ",".join(args) + ")"
+            # The eval() method parses the expression passed to it and runs
+            # python expression(code) within the program.
             eval("l."+cmd)
         else:
             print(l)
