@@ -4,6 +4,9 @@ This program demonstrate swapping of case using python.
 
 
 def swap_case(s):
+
+    # builtin function swapcase()
+
     return s.swapcase()
 
 
