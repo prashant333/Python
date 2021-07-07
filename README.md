@@ -9,6 +9,6 @@ I have solved question form various platform to provide the diversity in learnin
 
 Hope to keep the learnig going. 
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+<a href="https://www.codacy.com/gh/prashant333/Python/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prashant333/Python&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/f04289a2770544da94083f80c8b32c16"/></a> [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) 
 
 [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-overtime.svg)](https://forthebadge.com)
