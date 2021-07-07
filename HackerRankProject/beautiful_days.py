@@ -14,6 +14,8 @@ import os
 
 def beautifulDays(i, j, k):
 
+    """
+    # solution 1
     count = 0
     # set the range between i and j
 
@@ -24,10 +26,15 @@ def beautifulDays(i, j, k):
         y = int(str(x)[::-1])
 
         # checking if the difference is divisible by K and then increasing the counter.
-        
+
         if (abs(x - y) % k) == 0:
             count += 1
     return count
+    """
+    # Solution 2 - using list comprehension
+
+    beautiful_Days = [1 for day in range(i, j + 1) if (day - int(str(day)[::-1])) % k == 0]
+    return sum(beautiful_Days)
 
 
 if __name__ == '__main__':
