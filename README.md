@@ -1,6 +1,7 @@
 # Python #Algorithms # Hackerrank 
 <hr>
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/88c1dc39532b49718eca4aca4842f1ed)](https://app.codacy.com/gh/prashant333/Python?utm_source=github.com&utm_medium=referral&utm_content=prashant333/Python&utm_campaign=Badge_Grade_Settings)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) <br>
 
 This repo is built for beginners learnig python. I have created this repo in my own learning period and tried to solve as many programming problems as possible.<br>
