@@ -11,7 +11,6 @@
 
 def kangaroo(x1, v1, x2, v2):
     # Write your code here
-
     """ We are using y=mx +c line equation to check if the two given will
     ever intersect each other. With the exception being that if x2 > x1 and v2 > v1, then
      the two kangaroo will never meet.
@@ -20,8 +19,6 @@ def kangaroo(x1, v1, x2, v2):
      If the value of y is an integer then the line will intersect each other."""
 
     # --------------------Code1-----------------------------
-
-
     """
     if x2 > x1 and v2 > v1:
         return 'NO'
