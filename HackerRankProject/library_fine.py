@@ -15,10 +15,8 @@ expected return date, the fine = 500 * (number of months late)
 Charges are based only on the least precise measure of lateness. For example, whether a book is due January 1, 2017
 or December 31, 2017, if it is returned January 1, 2018, that is a year late and the fine would be 10,000.t
 """
-
-import datetime
-import math
-import random
+# datetime to be used in fist approach
+# import datetime
 
 
 def libraryFine(d1, m1, y1, d2, m2, y2):
