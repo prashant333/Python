@@ -1,12 +1,5 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
-
 # Complete the hourglassSum function below.
 def hourglassSum(arr, i, j):
     a = arr[i][j]
@@ -17,7 +10,7 @@ def hourglassSum(arr, i, j):
     f = arr[i + 2][j + 1]
     g = arr[i + 2][j + 2]
 
-    return (a + b + c + d + e + f + g)
+    return a + b + c + d + e + f + g
 
 
 if __name__ == '__main__':
