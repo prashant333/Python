@@ -13,6 +13,7 @@ import string
 
 def designerPdfViewer(h, word):
     # Write your code here
+    """
     val = []
     letters = [i for i in string.ascii_lowercase]
     new_word = list(word)
@@ -22,6 +23,9 @@ def designerPdfViewer(h, word):
         val.append(y)
     print(val)
     return max(val) * len(word)
+    """
+    # solution 2
+    return len(word) * max([h[ord(i)-97] for i in word])
 
 
 if __name__ == '__main__':
