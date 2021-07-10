@@ -1,6 +1,6 @@
 #!/bin/python3
-
-import string
+# importing string is only required for the first solution.
+# import string
 #
 # Complete the 'designerPdfViewer' function below.
 #
@@ -13,6 +13,7 @@ import string
 
 def designerPdfViewer(h, word):
     # Write your code here
+    
     """
     val = []
     letters = [i for i in string.ascii_lowercase]
