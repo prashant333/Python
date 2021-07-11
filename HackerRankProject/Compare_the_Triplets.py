@@ -10,7 +10,6 @@
 #
 
 def compareTriplets(a, b):
-    # Write your code here
     points = []
     alice, bob = 0, 0
     for i in range(3):
