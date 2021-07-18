@@ -13,7 +13,6 @@
 
 def designerPdfViewer(h, word):
     # Write your code here
-    
     """
     val = []
     letters = [i for i in string.ascii_lowercase]
