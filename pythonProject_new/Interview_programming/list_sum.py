@@ -2,7 +2,7 @@
 def simpleArraySum(ar):
     total = 0
     for i in range(0, len(ar)):
-        total = total + ar(i)
+        total = total + ar[i]
     return total
 
 
