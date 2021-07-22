@@ -19,8 +19,6 @@ if age >= 19:
                 print("You crossed the lake successfully.")
         else:
             print("you fell in the well!! You loose.")
-
-
     else:
         print("That's cool. Have a nice day.")
 
