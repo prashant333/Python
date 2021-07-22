@@ -1,4 +1,4 @@
-
+# This is the first python program in this file.
 a = list(map(int, input("Enter list values:").split()))
 print(a)
 sum1 = 0
