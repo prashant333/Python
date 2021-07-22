@@ -1,11 +1,11 @@
 def cal(val1, val2, operator):
-    if operator == "add":
+    if operator == "+":
         return val1+val2
-    elif operator == "sub":
+    elif operator == "-":
         return val1-val2
-    elif operator == "mul":
+    elif operator == "*":
         return val1*val2
-    elif operator == "div":
+    elif operator == "/":
         return val1 / val2
     else:
         print("incorrect operation")
@@ -15,5 +15,5 @@ def cal(val1, val2, operator):
 
 value1 = input("Enter a number:")
 value2 = input("Enter second number:")
-op = input("Enter operator as 'add', 'sub', 'mul', 'div':")
+op = input("Enter operation to perform")
 print(cal(float(value1), float(value2), op))
