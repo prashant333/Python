@@ -1,6 +1,5 @@
-"""
-This program extracts date and time from a given timestamp.
-"""
+# This program extracts date and time from a given timestamp.
+
 import datetime
 
 now = datetime.datetime.now()
