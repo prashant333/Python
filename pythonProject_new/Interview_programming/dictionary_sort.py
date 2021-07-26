@@ -2,6 +2,7 @@
 
 def dictionary_sort(d):
     print("Keys and Values sorted in the given dictionary is given as: ")
+    # reverse is an optional parameter.
     for i in sorted(d, reverse=True):
         print((i, d[i]), end=" ")
 

@@ -1,4 +1,5 @@
 # count the occurrence of an item in a given list.
+
 """
 Below code used counter built in method to count the occurrences of all the elements.
 from collections import Counter
