@@ -1,4 +1,4 @@
-# This program used lambda function to sort a gievn list.
+# This program used lambda function to sort a given list.
 """
 Original arrays:
 [-1, 2, -3, 5, 7, 8, 9, -10]
