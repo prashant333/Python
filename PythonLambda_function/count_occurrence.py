@@ -9,6 +9,7 @@ cntr[5]
 # 3
 """
 
+
 def countOccurrence(givenList, val):
     check_list = lambda i: givenList[i] == val
     result = sum(1 for i in range(len(givenList)) if check_list(i))
