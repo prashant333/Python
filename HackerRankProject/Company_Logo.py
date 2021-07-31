@@ -5,6 +5,7 @@ condition. Given a string s, which is the company name in lowercase letters, you
 most common characters in the string.
 """
 
+
 if __name__ == '__main__':
     s = input("Enter company name: ")
 
