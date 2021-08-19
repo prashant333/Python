@@ -12,4 +12,5 @@ def vowelConsonant(s):
     print(vow)
     print(con)
 
+
 vowelConsonant("howareyou")
