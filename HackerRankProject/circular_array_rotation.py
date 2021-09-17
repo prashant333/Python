@@ -9,7 +9,6 @@
 #  3. INTEGER_ARRAY queries
 #
 
-
 def circularArrayRotation(a, k, queries):
     # Write your code here
     if k > len(a):
