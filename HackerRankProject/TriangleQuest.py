@@ -2,9 +2,15 @@
 """
 for i in range(1, int(input())):
     print('{}'.format(i) * i)
-"""
+
 
 # OR
 # this solution assumes that the entered value will be between 1 to 9.
 for i in range(1, int(input())):
     print([0, 1, 22, 333, 4444, 55555, 666666, 7777777, 88888888, 999999999][i])
+"""
+
+# OR
+for i in range(1, int(input())):
+    print((10**i//9)*i)  # here expression 10**i will result into i times number of zeros.
+
