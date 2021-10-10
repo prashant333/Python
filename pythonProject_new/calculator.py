@@ -13,7 +13,7 @@ def cal(val1, val2, operator):
 # this is comment
 
 
-value1 = input("Enter a number:")
-value2 = input("Enter second number:")
-op = input("Enter operation to perform")
+value1 = input("Enter first number: ")
+value2 = input("Enter second number: ")
+op = input("Enter operation to perform: ")
 print(cal(float(value1), float(value2), op))
