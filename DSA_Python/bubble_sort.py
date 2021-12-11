@@ -1,4 +1,4 @@
-""" Python program for bubble sort.
+"""Python program for bubble sort.
 
 Bubble sort works by repeatedly swapping the two elements if they are in wrong order.
 """
