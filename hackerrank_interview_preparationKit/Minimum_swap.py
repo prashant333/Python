@@ -1,10 +1,5 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
 
 # Complete the minimumSwaps function below.
 def minimumSwaps(arr):
