@@ -3,7 +3,7 @@
 class Person:
 
     #  __init__ is used as a constructor to initialize the object of this class
-
+    #  here the self parameter is default in python class and is used to refer to object being created using this class.
     def __init__(self, name):
         self.name = name
 
