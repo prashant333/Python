@@ -14,6 +14,7 @@ def plusMinus(arr):
             pos += 1
         else:
             zer += 1
+            # below f-string formatting has been used f"{value:6f}"
     print(f"{pos / n:6f}\n{neg / n:6f}\n{zer / n:6f}")
 
 
