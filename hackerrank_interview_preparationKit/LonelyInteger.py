@@ -9,13 +9,17 @@ from collections import Counter
 
 
 def lonelyinteger(a):
-    # Write your code here
-    #return Counter(a).most_common()[-1][0]
+    # return Counter(a).most_common()[-1][0]
+    """
     result = []
     for item in a:
         result.append(a.count(item))
     answer = result.index(1)
     return a[answer]
+    """
+    for i in range(len(a)):
+        if a.count(a[i]) == 1:
+            return a[i]
 
 
 if __name__ == '__main__':
