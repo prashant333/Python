@@ -8,6 +8,9 @@
 
 def flippingBits(n):
 
+    # 2**32 -1 represents the highest possible 32 bit number representation
+    # The -1 is because integers start at 0, but our counting starts at 1.
+
     return (2**32 - 1) - n
 
 
