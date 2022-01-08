@@ -3,6 +3,7 @@
 
 def pangram(s):
     # set only contains unique values, if the same value is passed on twice, set considers that value only once.
+    # we use replace method to remove any space, if present in the input string.
     return "Pangram" if len(set(s.replace(" ", '').lower())) == 26 else "not pangram"
 
 
