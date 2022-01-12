@@ -29,5 +29,3 @@ Output
 sachin 3
 
 """
-
-
