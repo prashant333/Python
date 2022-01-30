@@ -2,9 +2,10 @@
 
 from collections import Counter
 
-n = int(input())
+test_cases = int(input())
 tweet_record = []            # a list variable to store the tweets.
-for i in range(n):
+
+for i in range(test_cases):
     total_record = int(input())
     for j in range(total_record):
         tweet_record.append(input())      # this is where the tweets will be appended in the list.
