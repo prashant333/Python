@@ -2,7 +2,7 @@
 
 class HashTable:
     def __init__(self):
-        # we can take max value for array size as input the user as well.
+        # we can take max value for array size as input from the user as well.
         self.Max = 50
         self.table = [None] * self.Max
 
