@@ -1,4 +1,4 @@
-""" This program demonstrates how to build alarm clock using python."""
+# This program demonstrates how to build alarm clock using python.
 
 import os
 import time
