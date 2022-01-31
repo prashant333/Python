@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup as bs
 
-github_user = input("Enter the github user name")
+github_user = input("Enter the github user name: ")
 url = "https://github.com/" + github_user
 r = requests.get(url)
 soup = bs(r.content, 'html.parser')
