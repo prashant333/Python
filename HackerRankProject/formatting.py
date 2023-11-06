@@ -11,7 +11,9 @@ def print_formatted(number):
 
     for i in range(1, n+1):
 
-        # part within curly brace can be interpreted as "{default_value:width of output followed by format code}"
+        # part within curly brace can be interpreted as "{positional index:width of output followed by format code}"
+        # if there is only 1 keyword to be formatted, then positional index will 0, if 2 then positional index 
+        # will be 0 and 1 and it will increase as the number of keyword increases in format
         print("{0:{width}d} {0:{width}o} {0:{width}X} {0:{width}b}".format(i, width=width))
 
 
