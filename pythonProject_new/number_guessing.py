@@ -4,6 +4,7 @@
 import random
 attempts_list = []
 
+#sample change to check the git branch
 
 def show_score():
     if len(attempts_list) <= 0:
